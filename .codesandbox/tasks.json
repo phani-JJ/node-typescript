@@ -1,0 +1,83 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "start:dev": {
+      "name": "start:dev",
+      "command": "npm run start:dev",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "prettier-format": {
+      "name": "prettier-format",
+      "command": "npm run prettier-format",
+      "runAtStart": false
+    },
+    "prettier-format:win32": {
+      "name": "prettier-format:win32",
+      "command": "npm run prettier-format:win32",
+      "runAtStart": false
+    },
+    "prettier-format:darwin:linux": {
+      "name": "prettier-format:darwin:linux",
+      "command": "npm run prettier-format:darwin:linux",
+      "runAtStart": false
+    },
+    "prettier-format:default": {
+      "name": "prettier-format:default",
+      "command": "npm run prettier-format:default",
+      "runAtStart": false
+    },
+    "prettier-watch": {
+      "name": "prettier-watch",
+      "command": "npm run prettier-watch",
+      "runAtStart": false
+    },
+    "prettier-watch:win32": {
+      "name": "prettier-watch:win32",
+      "command": "npm run prettier-watch:win32",
+      "runAtStart": false
+    },
+    "prettier-watch:darwin:linux": {
+      "name": "prettier-watch:darwin:linux",
+      "command": "npm run prettier-watch:darwin:linux",
+      "runAtStart": false
+    },
+    "prettier-watch:default": {
+      "name": "prettier-watch:default",
+      "command": "npm run prettier-watch:default",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:dev": {
+      "name": "test:dev",
+      "command": "npm run test:dev",
+      "runAtStart": false
+    }
+  }
+}
